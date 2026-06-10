@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Advanced Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Left Panel -->
+        <div class="left-panel">
+            <h2>Converters</h2>
+
+            <button onclick="showConverter('cToF')">
+                Celsius → Fahrenheit
+            </button>
+
+            <button onclick="showConverter('fToC')">
+                Fahrenheit → Celsius
+            </button>
+
+            <button onclick="showConverter('cToK')">
+                Celsius → Kelvin
+            </button>
+
+            <button onclick="showConverter('kToC')">
+                Kelvin → Celsius
+            </button>
+
+            <button onclick="showConverter('fToK')">
+                Fahrenheit → Kelvin
+            </button>
+
+            <button onclick="showConverter('kToF')">
+                Kelvin → Fahrenheit
+            </button>
+        </div>
+
+        <!-- Right Panel -->
+        <div class="right-panel" id="content">
+
+            <h1>Temperature Converter</h1>
+
+            <p>
+                Welcome to Temperature Converter Application.
+            </p>
+
+            <p>
+                Select any conversion option from the left panel.
+            </p>
+
+            <p>
+                Enter temperature and click Convert to get result.
+            </p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
